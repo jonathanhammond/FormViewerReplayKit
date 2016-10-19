@@ -19,19 +19,11 @@
 }
 
 - (instancetype)init {
-    if ((self = [super init]) != nil) {
-        // Inputs
-        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"start" uniqueKey:@"Form.start" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
-        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"stop" uniqueKey:@"Form.stop" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
-        
-        // Outputs
-      //  [self addPort:[[FMRPrimitiveOutputPort alloc] initWithName:@"Stop" uniqueKey:@"Form.stop"] portGroup:nil];
+    self = [super init];
+    if (self) {
+        [self addPort:[[FMRPrimitiveInputPort alloc] initWithName:@"Recording" uniqueKey:@"Form.recording" defaultValue:[PMRPrimitive primitiveWithBooleanValue:NO]] portGroup:nil];
     }
     return self;
-}
-
-- (void)dealloc {
-    
 }
 
 @end

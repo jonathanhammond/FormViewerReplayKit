@@ -10,8 +10,8 @@
 
 @interface ReplayKitControlPatch : PMRPatch
 
-@property (nonatomic, readonly) PMRPrimitiveInputPort *start;
-@property (nonatomic, readonly) PMRPrimitiveInputPort *stop;
-@property (nonatomic, readonly) PMRPrimitiveOutputPort *colorOutput;
+@property (nonatomic, readonly) PMRPrimitiveInputPort *recording;
+
++ (NSNotificationName)finishedNotificationName;
 
 @end

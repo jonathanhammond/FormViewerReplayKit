@@ -57,17 +57,16 @@
 		A04CEB2D1C33338100E18468 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB2C1C33338100E18468 /* RobotoCondensed-Regular.ttf */; };
 		A04CEB301C33338100E18468 /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEB2F1C33338100E18468 /* Performer.framework */; };
 		A04CEB321C33338100E18468 /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEB311C33338100E18468 /* RelativeInterface.framework */; };
-		A04CEB491C33353000E18468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB461C33353000E18468 /* ViewController.m */; };
-		A04CEB4A1C33353000E18468 /* RPPreviewViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB481C33353000E18468 /* RPPreviewViewController+Swizzling.m */; };
 		A04CEB4D1C33353C00E18468 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB4C1C33353C00E18468 /* CoverView.m */; };
-		A04CEB501C33354900E18468 /* RecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB4F1C33354900E18468 /* RecordController.m */; };
 		A04CEB521C33355300E18468 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEB511C33355300E18468 /* MediaToolbox.framework */; };
 		A04CEB531C33362F00E18468 /* ReplayKitControlPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */; };
 		A04CEB551C33363D00E18468 /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEB2F1C33338100E18468 /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A04CEB561C33363D00E18468 /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEB311C33338100E18468 /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A04CEB571C33363D00E18468 /* ReplayKitControlPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A04CEB5C1C3340EF00E18468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB5B1C3340EF00E18468 /* Main.storyboard */; };
 		A04CEB5E1C33411E00E18468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB5D1C33411E00E18468 /* LaunchScreen.storyboard */; };
+		C9890BC61DB8250500010B45 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9890BC51DB8250500010B45 /* ReplayKit.framework */; };
+		C9890BC91DB8260400010B45 /* ReplayKitPreviewHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C9890BC71DB8260400010B45 /* ReplayKitPreviewHandler.h */; };
+		C9890BCA1DB8260400010B45 /* ReplayKitPreviewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C9890BC81DB8260400010B45 /* ReplayKitPreviewHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,17 +131,13 @@
 		A04CEB2F1C33338100E18468 /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
 		A04CEB311C33338100E18468 /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
 		A04CEB361C33338100E18468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04CEB451C33353000E18468 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A04CEB461C33353000E18468 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A04CEB471C33353000E18468 /* RPPreviewViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RPPreviewViewController+Swizzling.h"; sourceTree = "<group>"; };
-		A04CEB481C33353000E18468 /* RPPreviewViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RPPreviewViewController+Swizzling.m"; sourceTree = "<group>"; };
 		A04CEB4B1C33353C00E18468 /* CoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
 		A04CEB4C1C33353C00E18468 /* CoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
-		A04CEB4E1C33354900E18468 /* RecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordController.h; sourceTree = "<group>"; };
-		A04CEB4F1C33354900E18468 /* RecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordController.m; sourceTree = "<group>"; };
 		A04CEB511C33355300E18468 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = "/Users/jonathanhammond/Documents/Sprung Studios/replayKitControlForm/replayKitControlFormViewer/MediaToolbox.framework"; sourceTree = "<absolute>"; };
-		A04CEB5B1C3340EF00E18468 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A04CEB5D1C33411E00E18468 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9890BC51DB8250500010B45 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ReplayKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9890BC71DB8260400010B45 /* ReplayKitPreviewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplayKitPreviewHandler.h; sourceTree = "<group>"; };
+		C9890BC81DB8260400010B45 /* ReplayKitPreviewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplayKitPreviewHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9890BC61DB8250500010B45 /* ReplayKit.framework in Frameworks */,
 				A04CEAEB1C33338000E18468 /* RelativeInterface.framework in Frameworks */,
 				A04CEAE91C33338000E18468 /* Performer.framework in Frameworks */,
 			);
@@ -185,6 +181,7 @@
 				A04CEAE31C33338000E18468 /* ReplayKitControlPerformPlugin */,
 				A04CEAF71C33338000E18468 /* ReplayKitControlViewer */,
 				A04CEACC1C33337E00E18468 /* Products */,
+				C9890BC41DB8250500010B45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,6 +231,8 @@
 			children = (
 				A04CEAEC1C33338000E18468 /* ReplayKitControlPatch.h */,
 				A04CEAEE1C33338000E18468 /* ReplayKitControlPatch.m */,
+				C9890BC71DB8260400010B45 /* ReplayKitPreviewHandler.h */,
+				C9890BC81DB8260400010B45 /* ReplayKitPreviewHandler.m */,
 				A04CEAF01C33338000E18468 /* Info.plist */,
 				A04CEAE71C33338000E18468 /* Frameworks */,
 				A04CEAE41C33338000E18468 /* Supporting Files */,
@@ -264,18 +263,11 @@
 			children = (
 				A04CEAFB1C33338000E18468 /* AppDelegate.h */,
 				A04CEAFC1C33338000E18468 /* AppDelegate.m */,
-				A04CEB451C33353000E18468 /* ViewController.h */,
-				A04CEB461C33353000E18468 /* ViewController.m */,
 				A04CEAFE1C33338100E18468 /* ConnectViewController.h */,
 				A04CEAFF1C33338100E18468 /* ConnectViewController.m */,
 				A04CEB051C33338100E18468 /* Connect@2x.png */,
-				A04CEB471C33353000E18468 /* RPPreviewViewController+Swizzling.h */,
-				A04CEB481C33353000E18468 /* RPPreviewViewController+Swizzling.m */,
 				A04CEB4B1C33353C00E18468 /* CoverView.h */,
 				A04CEB4C1C33353C00E18468 /* CoverView.m */,
-				A04CEB4E1C33354900E18468 /* RecordController.h */,
-				A04CEB4F1C33354900E18468 /* RecordController.m */,
-				A04CEB5B1C3340EF00E18468 /* Main.storyboard */,
 				A04CEB031C33338100E18468 /* Images.xcassets */,
 				A04CEB5D1C33411E00E18468 /* LaunchScreen.storyboard */,
 				A04CEB361C33338100E18468 /* Info.plist */,
@@ -331,6 +323,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C9890BC41DB8250500010B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9890BC51DB8250500010B45 /* ReplayKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -340,6 +340,7 @@
 			files = (
 				A04CEAE61C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch in Headers */,
 				A04CEAED1C33338000E18468 /* ReplayKitControlPatch.h in Headers */,
+				C9890BC91DB8260400010B45 /* ReplayKitPreviewHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +406,7 @@
 		A04CEAC11C33337E00E18468 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Just Add Music Media";
 				TargetAttributes = {
 					A04CEAC61C33337E00E18468 = {
@@ -419,7 +420,7 @@
 					};
 					A04CEAF51C33338000E18468 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = KS8AT8QB64;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -466,7 +467,6 @@
 				A04CEB0F1C33338100E18468 /* Roboto-Bold.ttf in Resources */,
 				A04CEB171C33338100E18468 /* Roboto-LightItalic.ttf in Resources */,
 				A04CEB271C33338100E18468 /* RobotoCondensed-Italic.ttf in Resources */,
-				A04CEB5C1C3340EF00E18468 /* Main.storyboard in Resources */,
 				A04CEB251C33338100E18468 /* RobotoCondensed-BoldItalic.ttf in Resources */,
 				A04CEB1B1C33338100E18468 /* Roboto-MediumItalic.ttf in Resources */,
 				A04CEB131C33338100E18468 /* Roboto-Italic.ttf in Resources */,
@@ -523,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04CEAEF1C33338000E18468 /* ReplayKitControlPatch.m in Sources */,
+				C9890BCA1DB8260400010B45 /* ReplayKitPreviewHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,11 +533,8 @@
 			files = (
 				A04CEAFD1C33338000E18468 /* AppDelegate.m in Sources */,
 				A04CEB001C33338100E18468 /* ConnectViewController.m in Sources */,
-				A04CEB491C33353000E18468 /* ViewController.m in Sources */,
-				A04CEB4A1C33353000E18468 /* RPPreviewViewController+Swizzling.m in Sources */,
 				A04CEB4D1C33353C00E18468 /* CoverView.m in Sources */,
 				A04CEAFA1C33338000E18468 /* main.m in Sources */,
-				A04CEB501C33354900E18468 /* RecordController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +554,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -596,8 +596,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -675,7 +677,7 @@
 		A04CEB401C33338100E18468 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -705,7 +707,7 @@
 		A04CEB411C33338100E18468 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -739,6 +741,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -763,6 +766,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
