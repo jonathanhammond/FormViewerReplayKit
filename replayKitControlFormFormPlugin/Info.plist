@@ -23,6 +23,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 Just Add Music Media. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>replayKitControlFormPlugin</string>
+	<string>ReplayKitControlPlugin</string>
 </dict>
 </plist>
