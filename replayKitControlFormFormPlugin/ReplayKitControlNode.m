@@ -1,21 +1,21 @@
 //
-//  replayKitControlFormNode.m
-//  replayKitControlForm
+//  ReplayKitControlFormNode.m
+//  ReplayKitControlForm
 //
 //  Created by Jonathan Hammond on 29/12/2015.
 //  Copyright © 2015 Just Add Music Media. All rights reserved.
 //
 
-#import "replayKitControlFormNode.h"
+#import "ReplayKitControlNode.h"
 
-@implementation replayKitControlFormNode
+@implementation ReplayKitControlNode
 
 + (NSString *)defaultName {
-    return @"replayKitControlForm";
+    return @"ReplayKit Control";
 }
 
 + (NSString *)processClassName {
-    return @"replayKitControlFormPatch";
+    return @"ReplayKitControlPatch";
 }
 
 - (instancetype)init {

@@ -6,13 +6,13 @@
 //  Copyright © 2015 Just Add Music Media. All rights reserved.
 //
 
-#import "replayKitControlFormPlugin.h"
-#import "replayKitControlFormNode.h"
+#import "ReplayKitControlPlugin.h"
+#import "ReplayKitControlNode.h"
 
-@implementation replayKitControlFormPlugin
+@implementation ReplayKitControlPlugin
 
 + (NSString *)name {
-    return @"replayKitControlForm";
+    return @"ReplayKit Control";
 }
 
 + (NSString *)description {
@@ -20,7 +20,7 @@
 }
 
 + (NSArray *)nodeClasses {
-    return @[[replayKitControlFormNode class]];
+    return @[[ReplayKitControlNode class]];
 }
 
 @end

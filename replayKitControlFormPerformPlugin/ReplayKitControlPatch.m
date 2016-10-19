@@ -6,10 +6,10 @@
 //  Copyright © 2015 Just Add Music Media. All rights reserved.
 //
 
-#import "replayKitControlFormPatch.h"
+#import "ReplayKitControlPatch.h"
 #import "ViewController.h"
 
-@implementation replayKitControlFormPatch
+@implementation ReplayKitControlPatch
 
 - (void)processPatchWithContext:(PMRProcessContext *)context {
 

@@ -7,34 +7,33 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		A04CEAC61C33337E00E18468 /* replayKitControlForm */ = {
+		A04CEAC61C33337E00E18468 /* ReplayKitControl */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A04CEB391C33338100E18468 /* Build configuration list for PBXAggregateTarget "replayKitControlForm" */;
+			buildConfigurationList = A04CEB391C33338100E18468 /* Build configuration list for PBXAggregateTarget "ReplayKitControl" */;
 			buildPhases = (
 				A04CEAC51C33337E00E18468 /* ShellScript */,
 			);
 			dependencies = (
 			);
-			name = replayKitControlForm;
+			name = ReplayKitControl;
 			productName = replayKitControlForm;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		A04CEAD01C33337E00E18468 /* replayKitControlFormFormPlugin-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A04CEACF1C33337E00E18468 /* replayKitControlFormFormPlugin-Prefix.pch */; };
 		A04CEAD31C33337F00E18468 /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAD21C33337F00E18468 /* Former.framework */; };
 		A04CEAD51C33338000E18468 /* RelativeInterfaceMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAD41C33338000E18468 /* RelativeInterfaceMac.framework */; };
-		A04CEAD81C33338000E18468 /* replayKitControlFormPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAD71C33338000E18468 /* replayKitControlFormPlugin.m */; };
-		A04CEADB1C33338000E18468 /* replayKitControlFormNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEADA1C33338000E18468 /* replayKitControlFormNode.m */; };
-		A04CEAE61C33338000E18468 /* replayKitControlFormPerformPlugin-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A04CEAE51C33338000E18468 /* replayKitControlFormPerformPlugin-Prefix.pch */; };
+		A04CEAD81C33338000E18468 /* ReplayKitControlPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAD71C33338000E18468 /* ReplayKitControlPlugin.m */; };
+		A04CEADB1C33338000E18468 /* ReplayKitControlNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEADA1C33338000E18468 /* ReplayKitControlNode.m */; };
+		A04CEAE61C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A04CEAE51C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch */; };
 		A04CEAE91C33338000E18468 /* Performer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAE81C33338000E18468 /* Performer.framework */; };
 		A04CEAEB1C33338000E18468 /* RelativeInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAEA1C33338000E18468 /* RelativeInterface.framework */; };
-		A04CEAED1C33338000E18468 /* replayKitControlFormPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A04CEAEC1C33338000E18468 /* replayKitControlFormPatch.h */; };
-		A04CEAEF1C33338000E18468 /* replayKitControlFormPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAEE1C33338000E18468 /* replayKitControlFormPatch.m */; };
+		A04CEAED1C33338000E18468 /* ReplayKitControlPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = A04CEAEC1C33338000E18468 /* ReplayKitControlPatch.h */; };
+		A04CEAEF1C33338000E18468 /* ReplayKitControlPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAEE1C33338000E18468 /* ReplayKitControlPatch.m */; };
 		A04CEAFA1C33338000E18468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAF91C33338000E18468 /* main.m */; };
 		A04CEAFD1C33338000E18468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAFC1C33338000E18468 /* AppDelegate.m */; };
 		A04CEB001C33338100E18468 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEAFF1C33338100E18468 /* ConnectViewController.m */; };
-		A04CEB021C33338100E18468 /* replayKitControlFormViewer-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB011C33338100E18468 /* replayKitControlFormViewer-Prefix.pch */; };
+		A04CEB021C33338100E18468 /* ReplayKitControlFormViewer-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB011C33338100E18468 /* ReplayKitControlFormViewer-Prefix.pch */; };
 		A04CEB041C33338100E18468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB031C33338100E18468 /* Images.xcassets */; };
 		A04CEB061C33338100E18468 /* Connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB051C33338100E18468 /* Connect@2x.png */; };
 		A04CEB091C33338100E18468 /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB081C33338100E18468 /* MaterialIcons-Regular.ttf */; };
@@ -63,10 +62,10 @@
 		A04CEB4D1C33353C00E18468 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB4C1C33353C00E18468 /* CoverView.m */; };
 		A04CEB501C33354900E18468 /* RecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04CEB4F1C33354900E18468 /* RecordController.m */; };
 		A04CEB521C33355300E18468 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEB511C33355300E18468 /* MediaToolbox.framework */; };
-		A04CEB531C33362F00E18468 /* replayKitControlFormPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* replayKitControlFormPerformPlugin.framework */; };
+		A04CEB531C33362F00E18468 /* ReplayKitControlPerformPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */; };
 		A04CEB551C33363D00E18468 /* Performer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEB2F1C33338100E18468 /* Performer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A04CEB561C33363D00E18468 /* RelativeInterface.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEB311C33338100E18468 /* RelativeInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A04CEB571C33363D00E18468 /* replayKitControlFormPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* replayKitControlFormPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A04CEB571C33363D00E18468 /* ReplayKitControlPerformPlugin.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A04CEB5C1C3340EF00E18468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB5B1C3340EF00E18468 /* Main.storyboard */; };
 		A04CEB5E1C33411E00E18468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04CEB5D1C33411E00E18468 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -80,36 +79,35 @@
 			files = (
 				A04CEB551C33363D00E18468 /* Performer.framework in CopyFiles */,
 				A04CEB561C33363D00E18468 /* RelativeInterface.framework in CopyFiles */,
-				A04CEB571C33363D00E18468 /* replayKitControlFormPerformPlugin.framework in CopyFiles */,
+				A04CEB571C33363D00E18468 /* ReplayKitControlPerformPlugin.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A04CEACB1C33337E00E18468 /* replayKitControlFormFormPlugin.formplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = replayKitControlFormFormPlugin.formplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		A04CEACF1C33337E00E18468 /* replayKitControlFormFormPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "replayKitControlFormFormPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A04CEACB1C33337E00E18468 /* ReplayKitControlFormPlugin.formplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplayKitControlFormPlugin.formplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04CEAD21C33337F00E18468 /* Former.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Former.framework; path = ../Frameworks/Former.framework; sourceTree = "<group>"; };
 		A04CEAD41C33338000E18468 /* RelativeInterfaceMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterfaceMac.framework; path = ../Frameworks/RelativeInterfaceMac.framework; sourceTree = "<group>"; };
-		A04CEAD61C33338000E18468 /* replayKitControlFormPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = replayKitControlFormPlugin.h; sourceTree = "<group>"; };
-		A04CEAD71C33338000E18468 /* replayKitControlFormPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = replayKitControlFormPlugin.m; sourceTree = "<group>"; };
-		A04CEAD91C33338000E18468 /* replayKitControlFormNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = replayKitControlFormNode.h; sourceTree = "<group>"; };
-		A04CEADA1C33338000E18468 /* replayKitControlFormNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = replayKitControlFormNode.m; sourceTree = "<group>"; };
+		A04CEAD61C33338000E18468 /* ReplayKitControlPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplayKitControlPlugin.h; sourceTree = "<group>"; };
+		A04CEAD71C33338000E18468 /* ReplayKitControlPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplayKitControlPlugin.m; sourceTree = "<group>"; };
+		A04CEAD91C33338000E18468 /* ReplayKitControlNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplayKitControlNode.h; sourceTree = "<group>"; };
+		A04CEADA1C33338000E18468 /* ReplayKitControlNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplayKitControlNode.m; sourceTree = "<group>"; };
 		A04CEADC1C33338000E18468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04CEAE21C33338000E18468 /* replayKitControlFormPerformPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = replayKitControlFormPerformPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A04CEAE51C33338000E18468 /* replayKitControlFormPerformPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "replayKitControlFormPerformPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReplayKitControlPerformPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04CEAE51C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReplayKitControlPerformPlugin-Prefix.pch"; sourceTree = "<group>"; };
 		A04CEAE81C33338000E18468 /* Performer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Performer.framework; path = ../Frameworks/Performer.framework; sourceTree = "<group>"; };
 		A04CEAEA1C33338000E18468 /* RelativeInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RelativeInterface.framework; path = ../Frameworks/RelativeInterface.framework; sourceTree = "<group>"; };
-		A04CEAEC1C33338000E18468 /* replayKitControlFormPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = replayKitControlFormPatch.h; sourceTree = "<group>"; };
-		A04CEAEE1C33338000E18468 /* replayKitControlFormPatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = replayKitControlFormPatch.m; sourceTree = "<group>"; };
+		A04CEAEC1C33338000E18468 /* ReplayKitControlPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplayKitControlPatch.h; sourceTree = "<group>"; };
+		A04CEAEE1C33338000E18468 /* ReplayKitControlPatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplayKitControlPatch.m; sourceTree = "<group>"; };
 		A04CEAF01C33338000E18468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04CEAF61C33338000E18468 /* replayKitControlFormViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = replayKitControlFormViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04CEAF61C33338000E18468 /* ReplayKitControlViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplayKitControlViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04CEAF91C33338000E18468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A04CEAFB1C33338000E18468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A04CEAFC1C33338000E18468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A04CEAFE1C33338100E18468 /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
 		A04CEAFF1C33338100E18468 /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
-		A04CEB011C33338100E18468 /* replayKitControlFormViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "replayKitControlFormViewer-Prefix.pch"; sourceTree = "<group>"; };
+		A04CEB011C33338100E18468 /* ReplayKitControlFormViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReplayKitControlFormViewer-Prefix.pch"; sourceTree = "<group>"; };
 		A04CEB031C33338100E18468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A04CEB051C33338100E18468 /* Connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Connect@2x.png"; sourceTree = "<group>"; };
 		A04CEB081C33338100E18468 /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
@@ -170,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CEB531C33362F00E18468 /* replayKitControlFormPerformPlugin.framework in Frameworks */,
+				A04CEB531C33362F00E18468 /* ReplayKitControlPerformPlugin.framework in Frameworks */,
 				A04CEB521C33355300E18468 /* MediaToolbox.framework in Frameworks */,
 				A04CEB321C33338100E18468 /* RelativeInterface.framework in Frameworks */,
 				A04CEB301C33338100E18468 /* Performer.framework in Frameworks */,
@@ -183,9 +181,9 @@
 		A04CEAC01C33337E00E18468 = {
 			isa = PBXGroup;
 			children = (
-				A04CEACD1C33337E00E18468 /* replayKitControlFormFormPlugin */,
-				A04CEAE31C33338000E18468 /* replayKitControlFormPerformPlugin */,
-				A04CEAF71C33338000E18468 /* replayKitControlFormViewer */,
+				A04CEACD1C33337E00E18468 /* ReplayKitControlFormPlugin */,
+				A04CEAE31C33338000E18468 /* ReplayKitControlPerformPlugin */,
+				A04CEAF71C33338000E18468 /* ReplayKitControlViewer */,
 				A04CEACC1C33337E00E18468 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,31 +191,31 @@
 		A04CEACC1C33337E00E18468 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A04CEACB1C33337E00E18468 /* replayKitControlFormFormPlugin.formplugin */,
-				A04CEAE21C33338000E18468 /* replayKitControlFormPerformPlugin.framework */,
-				A04CEAF61C33338000E18468 /* replayKitControlFormViewer.app */,
+				A04CEACB1C33337E00E18468 /* ReplayKitControlFormPlugin.formplugin */,
+				A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */,
+				A04CEAF61C33338000E18468 /* ReplayKitControlViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A04CEACD1C33337E00E18468 /* replayKitControlFormFormPlugin */ = {
+		A04CEACD1C33337E00E18468 /* ReplayKitControlFormPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				A04CEAD61C33338000E18468 /* replayKitControlFormPlugin.h */,
-				A04CEAD71C33338000E18468 /* replayKitControlFormPlugin.m */,
-				A04CEAD91C33338000E18468 /* replayKitControlFormNode.h */,
-				A04CEADA1C33338000E18468 /* replayKitControlFormNode.m */,
+				A04CEAD61C33338000E18468 /* ReplayKitControlPlugin.h */,
+				A04CEAD71C33338000E18468 /* ReplayKitControlPlugin.m */,
+				A04CEAD91C33338000E18468 /* ReplayKitControlNode.h */,
+				A04CEADA1C33338000E18468 /* ReplayKitControlNode.m */,
 				A04CEADC1C33338000E18468 /* Info.plist */,
 				A04CEAD11C33337F00E18468 /* Frameworks */,
 				A04CEACE1C33337E00E18468 /* Supporting Files */,
 			);
+			name = ReplayKitControlFormPlugin;
 			path = replayKitControlFormFormPlugin;
 			sourceTree = "<group>";
 		};
 		A04CEACE1C33337E00E18468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A04CEACF1C33337E00E18468 /* replayKitControlFormFormPlugin-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,22 +229,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A04CEAE31C33338000E18468 /* replayKitControlFormPerformPlugin */ = {
+		A04CEAE31C33338000E18468 /* ReplayKitControlPerformPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				A04CEAEC1C33338000E18468 /* replayKitControlFormPatch.h */,
-				A04CEAEE1C33338000E18468 /* replayKitControlFormPatch.m */,
+				A04CEAEC1C33338000E18468 /* ReplayKitControlPatch.h */,
+				A04CEAEE1C33338000E18468 /* ReplayKitControlPatch.m */,
 				A04CEAF01C33338000E18468 /* Info.plist */,
 				A04CEAE71C33338000E18468 /* Frameworks */,
 				A04CEAE41C33338000E18468 /* Supporting Files */,
 			);
+			name = ReplayKitControlPerformPlugin;
 			path = replayKitControlFormPerformPlugin;
 			sourceTree = "<group>";
 		};
 		A04CEAE41C33338000E18468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A04CEAE51C33338000E18468 /* replayKitControlFormPerformPlugin-Prefix.pch */,
+				A04CEAE51C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -260,7 +259,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A04CEAF71C33338000E18468 /* replayKitControlFormViewer */ = {
+		A04CEAF71C33338000E18468 /* ReplayKitControlViewer */ = {
 			isa = PBXGroup;
 			children = (
 				A04CEAFB1C33338000E18468 /* AppDelegate.h */,
@@ -284,6 +283,7 @@
 				A04CEB2E1C33338100E18468 /* Frameworks */,
 				A04CEAF81C33338000E18468 /* Supporting Files */,
 			);
+			name = ReplayKitControlViewer;
 			path = replayKitControlFormViewer;
 			sourceTree = "<group>";
 		};
@@ -291,7 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				A04CEAF91C33338000E18468 /* main.m */,
-				A04CEB011C33338100E18468 /* replayKitControlFormViewer-Prefix.pch */,
+				A04CEB011C33338100E18468 /* ReplayKitControlFormViewer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -338,17 +338,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CEAE61C33338000E18468 /* replayKitControlFormPerformPlugin-Prefix.pch in Headers */,
-				A04CEAED1C33338000E18468 /* replayKitControlFormPatch.h in Headers */,
+				A04CEAE61C33338000E18468 /* ReplayKitControlPerformPlugin-Prefix.pch in Headers */,
+				A04CEAED1C33338000E18468 /* ReplayKitControlPatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A04CEACA1C33337E00E18468 /* replayKitControlFormFormPlugin */ = {
+		A04CEACA1C33337E00E18468 /* ReplayKitControlFormPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A04CEB3C1C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormFormPlugin" */;
+			buildConfigurationList = A04CEB3C1C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlFormPlugin" */;
 			buildPhases = (
 				A04CEAC71C33337E00E18468 /* Sources */,
 				A04CEAC81C33337E00E18468 /* Frameworks */,
@@ -358,14 +358,14 @@
 			);
 			dependencies = (
 			);
-			name = replayKitControlFormFormPlugin;
+			name = ReplayKitControlFormPlugin;
 			productName = replayKitControlFormFormPlugin;
-			productReference = A04CEACB1C33337E00E18468 /* replayKitControlFormFormPlugin.formplugin */;
+			productReference = A04CEACB1C33337E00E18468 /* ReplayKitControlFormPlugin.formplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A04CEAE11C33338000E18468 /* replayKitControlFormPerformPlugin */ = {
+		A04CEAE11C33338000E18468 /* ReplayKitControlPerformPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A04CEB3F1C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormPerformPlugin" */;
+			buildConfigurationList = A04CEB3F1C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlPerformPlugin" */;
 			buildPhases = (
 				A04CEADD1C33338000E18468 /* Sources */,
 				A04CEADE1C33338000E18468 /* Frameworks */,
@@ -376,14 +376,14 @@
 			);
 			dependencies = (
 			);
-			name = replayKitControlFormPerformPlugin;
+			name = ReplayKitControlPerformPlugin;
 			productName = replayKitControlFormPerformPlugin;
-			productReference = A04CEAE21C33338000E18468 /* replayKitControlFormPerformPlugin.framework */;
+			productReference = A04CEAE21C33338000E18468 /* ReplayKitControlPerformPlugin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A04CEAF51C33338000E18468 /* replayKitControlFormViewer */ = {
+		A04CEAF51C33338000E18468 /* ReplayKitControlViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A04CEB421C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormViewer" */;
+			buildConfigurationList = A04CEB421C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlViewer" */;
 			buildPhases = (
 				A04CEAF11C33338000E18468 /* Sources */,
 				A04CEAF21C33338000E18468 /* Frameworks */,
@@ -394,9 +394,9 @@
 			);
 			dependencies = (
 			);
-			name = replayKitControlFormViewer;
+			name = ReplayKitControlViewer;
 			productName = replayKitControlFormViewer;
-			productReference = A04CEAF61C33338000E18468 /* replayKitControlFormViewer.app */;
+			productReference = A04CEAF61C33338000E18468 /* ReplayKitControlViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -423,7 +423,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A04CEAC41C33337E00E18468 /* Build configuration list for PBXProject "replayKitControlForm" */;
+			buildConfigurationList = A04CEAC41C33337E00E18468 /* Build configuration list for PBXProject "ReplayKitControlForm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -436,10 +436,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A04CEAC61C33337E00E18468 /* replayKitControlForm */,
-				A04CEACA1C33337E00E18468 /* replayKitControlFormFormPlugin */,
-				A04CEAE11C33338000E18468 /* replayKitControlFormPerformPlugin */,
-				A04CEAF51C33338000E18468 /* replayKitControlFormViewer */,
+				A04CEAC61C33337E00E18468 /* ReplayKitControl */,
+				A04CEACA1C33337E00E18468 /* ReplayKitControlFormPlugin */,
+				A04CEAE11C33338000E18468 /* ReplayKitControlPerformPlugin */,
+				A04CEAF51C33338000E18468 /* ReplayKitControlViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -449,7 +449,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CEAD01C33337E00E18468 /* replayKitControlFormFormPlugin-Prefix.pch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +472,7 @@
 				A04CEB131C33338100E18468 /* Roboto-Italic.ttf in Resources */,
 				A04CEB151C33338100E18468 /* Roboto-Light.ttf in Resources */,
 				A04CEB5E1C33411E00E18468 /* LaunchScreen.storyboard in Resources */,
-				A04CEB021C33338100E18468 /* replayKitControlFormViewer-Prefix.pch in Resources */,
+				A04CEB021C33338100E18468 /* ReplayKitControlFormViewer-Prefix.pch in Resources */,
 				A04CEB111C33338100E18468 /* Roboto-BoldItalic.ttf in Resources */,
 				A04CEB0D1C33338100E18468 /* Roboto-BlackItalic.ttf in Resources */,
 				A04CEB1F1C33338100E18468 /* Roboto-Thin.ttf in Resources */,
@@ -505,7 +504,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cd \"${BUILD_DIR}\"\n\n## Build all of the Xcode configurations.\n# Mac\nxcodebuild -project \"${PROJECT_DIR}/replayKitControlForm.xcodeproj\" -scheme replayKitControlFormFormPlugin -configuration Release BUILD_DIR=\"${BUILD_DIR}\"\n\n# iOS\nxcodebuild -project \"${PROJECT_DIR}/replayKitControlForm.xcodeproj\" -scheme replayKitControlFormPerformPlugin -configuration Release -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\"\nxcodebuild -project \"${PROJECT_DIR}/replayKitControlForm.xcodeproj\" -scheme replayKitControlFormPerformPlugin -configuration Release -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\"\n\n# Create the destination directory.\nDEST_DIR=./replayKitControlForm\nrm -rf $DEST_DIR\nmkdir -p \"$DEST_DIR/replayKitControlForm.formplugin\"\n\n# Copy the OSX build\ncp -fR \"./Release/replayKitControlFormFormPlugin.formplugin/\" \"$DEST_DIR/replayKitControlForm.formplugin/\"\n\n# Copy the iOS build\ncp -fR \"./Release-iphoneos/replayKitControlFormPerformPlugin.framework\" \"$DEST_DIR/replayKitControlFormPerformPlugin.framework\"\n\n# lipo the iOS build\nlipo -create \"${BUILD_DIR}/Release-iphonesimulator/replayKitControlFormPerformPlugin.framework/replayKitControlFormPerformPlugin\" \"${BUILD_DIR}/Release-iphoneos/replayKitControlFormPerformPlugin.framework/replayKitControlFormPerformPlugin\" -output \"$DEST_DIR/replayKitControlFormPerformPlugin.framework/replayKitControlFormPerformPlugin\"\n\n# Copy the iOS build into the OSX plugin for safe keeping\nmkdir -p \"$DEST_DIR/replayKitControlForm.formplugin/Contents/Perform/\"\ncp -fR \"$DEST_DIR/replayKitControlFormPerformPlugin.framework\" \"$DEST_DIR/replayKitControlForm.formplugin/Contents/Perform/\"\n\n# Install plugin\nmkdir -p \"$HOME/Library/Application Support/Form/PlugIns/\"\ncp -fR \"$DEST_DIR/replayKitControlForm.formplugin\" \"$HOME/Library/Application Support/Form/PlugIns/\"\n\n# Reveal the finished plugin if we're archiving\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    open --reveal $DEST_DIR\nfi\n";
+			shellScript = "cd \"${BUILD_DIR}\"\n\n## Build all of the Xcode configurations.\n# Mac\nxcodebuild -project \"${PROJECT_DIR}/ReplayKitControlForm.xcodeproj\" -scheme ReplayKitControlFormPlugin -configuration Release BUILD_DIR=\"${BUILD_DIR}\"\n\n# iOS\nxcodebuild -project \"${PROJECT_DIR}/ReplayKitControlForm.xcodeproj\" -scheme ReplayKitControlPerformPlugin -configuration Release -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\"\nxcodebuild -project \"${PROJECT_DIR}/ReplayKitControlForm.xcodeproj\" -scheme ReplayKitControlPerformPlugin -configuration Release -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\"\n\n# Create the destination directory.\nDEST_DIR=./ReplayKitControl\nrm -rf $DEST_DIR\nmkdir -p \"$DEST_DIR/ReplayKitControl.formplugin\"\n\n# Copy the OSX build\ncp -fR \"./Release/ReplayKitControlFormPlugin.formplugin/\" \"$DEST_DIR/ReplayKitControl.formplugin/\"\n\n# Copy the iOS build\ncp -fR \"./Release-iphoneos/ReplayKitControlPerformPlugin.framework\" \"$DEST_DIR/ReplayKitControlPerformPlugin.framework\"\n\n# lipo the iOS build\nlipo -create \"${BUILD_DIR}/Release-iphonesimulator/ReplayKitControlPerformPlugin.framework/ReplayKitControlPerformPlugin\" \"${BUILD_DIR}/Release-iphoneos/ReplayKitControlPerformPlugin.framework/ReplayKitControlPerformPlugin\" -output \"$DEST_DIR/ReplayKitControlPerformPlugin.framework/ReplayKitControlPerformPlugin\"\n\n# Copy the iOS build into the OSX plugin for safe keeping\nmkdir -p \"$DEST_DIR/ReplayKitControl.formplugin/Contents/Perform/\"\ncp -fR \"$DEST_DIR/ReplayKitControlPerformPlugin.framework\" \"$DEST_DIR/ReplayKitControl.formplugin/Contents/Perform/\"\n\n# Install plugin\nmkdir -p \"$HOME/Library/Application Support/Form/PlugIns/\"\ncp -fR \"$DEST_DIR/ReplayKitControl.formplugin\" \"$HOME/Library/Application Support/Form/PlugIns/\"\n\n# Reveal the finished plugin if we're archiving\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    open --reveal $DEST_DIR\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -514,8 +513,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CEAD81C33338000E18468 /* replayKitControlFormPlugin.m in Sources */,
-				A04CEADB1C33338000E18468 /* replayKitControlFormNode.m in Sources */,
+				A04CEAD81C33338000E18468 /* ReplayKitControlPlugin.m in Sources */,
+				A04CEADB1C33338000E18468 /* ReplayKitControlNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CEAEF1C33338000E18468 /* replayKitControlFormPatch.m in Sources */,
+				A04CEAEF1C33338000E18468 /* ReplayKitControlPatch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,11 +639,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				GCC_PREFIX_HEADER = "replayKitControlFormFormPlugin/replayKitControlFormFormPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormFormPlugin/ReplayKitControlForm.temp_caseinsensitive_renameFormPlugin-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormFormPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormFormPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlFormPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -661,11 +660,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				GCC_PREFIX_HEADER = "replayKitControlFormFormPlugin/replayKitControlFormFormPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormFormPlugin/ReplayKitControlForm.temp_caseinsensitive_renameFormPlugin-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormFormPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormFormPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlFormPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -688,12 +687,12 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "replayKitControlFormPerformPlugin/replayKitControlFormPerformPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormPerformPlugin/ReplayKitControlPerformPlugin-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormPerformPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormPerformPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlPerformPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -718,12 +717,12 @@
 					"$(PROJECT_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "replayKitControlFormPerformPlugin/replayKitControlFormPerformPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormPerformPlugin/ReplayKitControlPerformPlugin-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormPerformPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormPerformPlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlPerformPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -744,14 +743,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/replayKitControlFormViewer",
+					"$(PROJECT_DIR)/ReplayKitControlViewer",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "replayKitControlFormViewer/replayKitControlFormViewer-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormViewer/ReplayKitControlFormViewer-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormViewer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -768,14 +767,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
-					"$(PROJECT_DIR)/replayKitControlFormViewer",
+					"$(PROJECT_DIR)/ReplayKitControlViewer",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "replayKitControlFormViewer/replayKitControlFormViewer-Prefix.pch";
+				GCC_PREFIX_HEADER = "replayKitControlFormViewer/ReplayKitControlFormViewer-Prefix.pch";
 				INFOPLIST_FILE = replayKitControlFormViewer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.replayKitControlFormViewer;
+				PRODUCT_BUNDLE_IDENTIFIER = JustAddMusicMedia.ReplayKitControlViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -786,7 +785,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A04CEAC41C33337E00E18468 /* Build configuration list for PBXProject "replayKitControlForm" */ = {
+		A04CEAC41C33337E00E18468 /* Build configuration list for PBXProject "ReplayKitControlForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A04CEB371C33338100E18468 /* Debug */,
@@ -795,7 +794,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A04CEB391C33338100E18468 /* Build configuration list for PBXAggregateTarget "replayKitControlForm" */ = {
+		A04CEB391C33338100E18468 /* Build configuration list for PBXAggregateTarget "ReplayKitControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A04CEB3A1C33338100E18468 /* Debug */,
@@ -804,7 +803,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A04CEB3C1C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormFormPlugin" */ = {
+		A04CEB3C1C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlFormPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A04CEB3D1C33338100E18468 /* Debug */,
@@ -813,7 +812,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A04CEB3F1C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormPerformPlugin" */ = {
+		A04CEB3F1C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlPerformPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A04CEB401C33338100E18468 /* Debug */,
@@ -822,7 +821,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A04CEB421C33338100E18468 /* Build configuration list for PBXNativeTarget "replayKitControlFormViewer" */ = {
+		A04CEB421C33338100E18468 /* Build configuration list for PBXNativeTarget "ReplayKitControlViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A04CEB431C33338100E18468 /* Debug */,
